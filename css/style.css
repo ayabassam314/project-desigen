@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background:url("../img/bg.jpg") no-repeat center;
+    height: 600px;
+    background-size: cover;
+}
+
+header #topnav{
+    height: 60px;
+    background-color: #5d93ce;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding:0 15px ;
+}
+#topnav #logo{
+    float: left;
+    width: 30%;
+    padding-top: 15px;
+}
+#topnav #mainnav{
+    float:right;
+    width: 70%;
+    text-align: right;
+}
+#topnav .logoicon{
+    font-size: 30px;
+    color: #fff;
+}
+#mainnav .navitem{
+    color: #fff;
+    margin-left: 30px;
+    display: inline-block;
+    height: 60px;
+    padding: 17px 10px;
+}
+#mainnav .navitem:hover{
+    color: #000;
+}
+#mainnav .active{
+    background-color: #fff;
+    color: #41658e;
+   }
+   #head{
+       padding: 200px;
+   }
+   #head .sitetitle{
+       background-color: #41658e;
+       color: #fff;
+       font-size: 50px;
+       padding: 20px;
+       width: 50%;
+       margin-left: 40px;
+   }
+   #Services{
+       padding: 20px;
+       background-color: #eee;
+       height: 420px;
+       
+   }
+   #services_sec .sechead{
+       text-align: center;
+       color: #41658e;
+       text-transform: capitalize;
+       margin-bottom: 10px;
+       font-size: 30px;
+   }
+   #services_sec .headhr{
+       width: 10%;
+       margin: auto;
+       border: 1px solid #41658e;
+       margin-bottom: 20px;
+   }
+   #services_sec .service {
+       float: left;
+       width: 32.3333%;
+       border: 1px solid #ccc;
+       border-radius: 8px;
+       padding: 20px;
+       height: 330px;
+   }
+   #services_sec .service2, #services_sec .service3{
+       margin-left: 1.5%;
+   }
+.service .num{
+    width: 50px;
+    height: 50px;
+    background-color: #41658e;
+    color: #fff;
+    font-weight: bold;
+    text-align: center ;
+    font-size: 30px;
+    line-height: 1.5;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.service .serviceName{
+    color: #41658e;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Arial';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.service .servicedescr{
+    text-align: justify;
+    line-height: 1.5;
+    color: #6d5f5f;
+    font-family: 'Arial';
+}
+#services_sec .service:hover{
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #41658e;
+}
+#services_sec .service:hover .num{
+    background-color: #fff;
+    color: #41658e;
+}
+#services_sec .service:hover .serviceName{
+    color: #fff;
+}
+#services_sec .service:hover .servicedescr{
+    color: #fff;
+}
+
+footer{
+    background: url("../img/bg.jpg") no-repeat center center;
+    height: 300px;
+    background-size: cover ;
+}
+footer #footer{
+    background: rgba(5, 13, 49, 0.9);
+    height: 300px;
+    background-size: cover;
+    padding: 30px;
+    color: #fff;
+    font-family: 'Arial';
+}
+#footer .side{
+    float: left;
+    width: 33.333%;
+    padding: 20px;
+}
+#footer .side-title{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.infoside .site-about{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.infoside .social{
+    text-align: center;
+}
+.social .socialicon{
+    font-size: 22px;
+    margin-left: 7px;
+}
+   
+   #footer .quicklinks .qlinks{
+       margin-left: 20px;
+   }
+   .qlinks .qlink-li{
+       margin-bottom: 8px;
+   }
+   .qlink-li .qlink-li{
+       color: #fff;
+       font-size: 12px;
+   }
+   .qlink-li .qlink-li:hover{
+       color: #000;
+       text-decoration: underline;
+   }
+   #footer .contact .contactform{
+
+   }
+   .contactform .inputf, .contactform .inputarea, .contactform .btn{
+       display: block;
+       width: 100%;
+       margin-bottom: 10px;
+       padding: 15px 20px;
+       border-radius: 8px;
+       border: 1px solid #ccc;
+   }
+   .contactform .inputarea{
+       color: #716868;
+   }
+   .contactform .inputf, .contactform .inputarea :focus{
+       outline: 0;
+       border: 1px solid red;
+   }
+   .contactform .btn{
+       background-color: #41658e;
+       color: #fff;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+       border: none;
+       font-weight: bold;
+   }
+   .contactform .btn:hover{
+    background-color: #ccc;
+    color: #41658e;
+    cursor: pointer;
+   }
+   #copyright{
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 3;
+    font-size: 12px;
+   }
+   .clear{
+       clear: both;
+   }
